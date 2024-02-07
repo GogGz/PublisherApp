@@ -13,3 +13,5 @@ C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherData\obj\Debug\net7.
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherData\obj\Debug\net7.0\refint\PublisherData.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherData\obj\Debug\net7.0\PublisherData.pdb
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherData\obj\Debug\net7.0\ref\PublisherData.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherData\bin\Debug\net7.0\PublisherData.runtimeconfig.json
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherData\obj\Debug\net7.0\PublisherData.genruntimeconfig.cache

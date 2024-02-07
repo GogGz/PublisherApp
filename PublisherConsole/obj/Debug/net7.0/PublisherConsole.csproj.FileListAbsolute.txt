@@ -3,9 +3,11 @@ C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\ne
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\PublisherConsole.runtimeconfig.json
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\PublisherConsole.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\PublisherConsole.pdb
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Humanizer.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -13,6 +15,7 @@ C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\ne
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
@@ -24,6 +27,8 @@ C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\ne
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -58,8 +63,10 @@ C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\obj\Debug\ne
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\obj\Debug\net7.0\PublisherConsole.pdb
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\obj\Debug\net7.0\PublisherConsole.genruntimeconfig.cache
 C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\obj\Debug\net7.0\ref\PublisherConsole.dll
-C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Humanizer.dll
-C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\gohar.ghazaryan\source\repos\PublisherApp\PublisherConsole\bin\Debug\net7.0\System.Memory.Data.dll
