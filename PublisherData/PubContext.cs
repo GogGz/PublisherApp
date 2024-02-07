@@ -11,7 +11,7 @@ namespace PublisherData
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog = PubDatabase").LogTo(Console.WriteLine).
+            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Initial Catalog = PubDatabase").LogTo(Console.WriteLine);
         }
 
     }

@@ -3,19 +3,20 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using PublisherData;
 using PublisherDomain;
+using System.Threading.Channels;
 
 namespace PublisherConsole
 {
-    
+
     internal class Program
     {
-        
+
         static void Main(string[] args)
         {
-            
-            using(PubContext context = new PubContext())
+
+            using (PubContext context = new PubContext())
             {
-                context.Database.EnsureCreated(); 
+                context.Database.EnsureCreated();
             }
 
 
@@ -36,10 +37,66 @@ namespace PublisherConsole
             //SortAuthors();
 
             // RetrieveAndUpdateAuthor();
-            DeleteAuthor();
-            GetAuthors();
+            //DeleteAuthor();
+            //GetAuthors();
+
+            //AddBookToAuthor();
+            // LoadBooksWithAuthor();
+
+            ModifyingData();
 
         }
+
+        public static void ModifyingData()
+        {
+            var _context = new PubContext();
+
+            var author = _context.Authors.Include(a => a.Books)
+                .FirstOrDefault(a => a.Id == 4);
+            author.Books[1].PublishDate = "New publish date";
+            _context.ChangeTracker.DetectChanges();
+
+            var state = _context.ChangeTracker.DebugView.ShortView;
+        }
+
+        public static void Projectoins()
+        {
+            using var _context = new PubContext();
+            var anknown = _context.Authors
+                .Select(a => new
+                {
+                    AuthorId = a.Id,
+                    Name = a.LastName + " " + a.LastName
+                })
+                .ToList();
+        }
+
+        public static void LoadBooksWithAuthor()
+        {
+            using var _context = new PubContext();
+            var authors = _context.Authors.Include(a => a.Books).ToList();
+
+            authors.ForEach(a =>
+            {
+                Console.WriteLine($"{a.LastName} ({a.Books.Count})");
+                a.Books.ForEach(b => Console.WriteLine($"             {b.Title}"));
+            });
+        }  
+
+
+            public static void AddBookToAuthor()
+        {
+            using var _context = new PubContext();
+            var author = _context.Authors.FirstOrDefault(a => a.LastName == "Lerman");
+
+            if(author != null)
+            {
+                author.Books.Add(new Book { Title = "Wool", PublishDate = "12.05.2014" });
+            }
+            _context.SaveChanges();
+        }
+
+
         public static void DeleteAuthor()
         {
             using var _context = new PubContext();
