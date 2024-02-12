@@ -39,7 +39,7 @@ namespace PublisherData.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Authors");
+                    b.ToTable("Authors", (string)null);
                 });
 
             modelBuilder.Entity("PublisherDomain.Book", b =>
@@ -68,7 +68,7 @@ namespace PublisherData.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("PublisherDomain.Book", b =>
